@@ -15,16 +15,20 @@ body {
 fieldset {
   background-color: white;
 }
-.main-form-inputs-container{
-    display:flex;
-    margin-left: auto; 
-margin-right: 0;
-    
+.main-form-inputs-container {
+  display: flex;
+  justify-content: center;
 }
-.main-form-inputs-container input{
-    
-    background-color: aqua;
+.main-form-inputs-container input {
+  width: 15rem;
+}
 
-margin-right: 0;
-
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-account-button {
+  width: 14rem;
+  height: 3rem;
 }
