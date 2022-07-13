@@ -17,10 +17,12 @@ fieldset {
 }
 .main-form-inputs-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+
 }
-.main-form-inputs-container input {
+.main-form-inputs-container input, ul {
   width: 15rem;
+  list-style-type: none;
 }
 
 .button-section {
@@ -31,4 +33,8 @@ fieldset {
 .create-account-button {
   width: 14rem;
   height: 3rem;
+}
+fieldset h2{
+
+    margin-left: 70px;
 }
