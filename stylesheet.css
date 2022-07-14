@@ -5,10 +5,14 @@ body {
   display: flex;
 }
 .main-left {
-  width: 100%;
   background-color: black;
+  color: white;
 }
-
+.main-left h1 {
+  display: flex;
+  justify-content: center;
+  color:rgb(250, 0, 217);
+}
 .main-right {
   background-color: rgb(226, 223, 223);
 }
@@ -18,9 +22,9 @@ fieldset {
 .main-form-inputs-container {
   display: flex;
   justify-content: space-around;
-
 }
-.main-form-inputs-container input, ul {
+.main-form-inputs-container input,
+ul {
   width: 15rem;
   list-style-type: none;
 }
@@ -34,7 +38,8 @@ fieldset {
   width: 14rem;
   height: 3rem;
 }
-fieldset h2{
 
-    margin-left: 70px;
+a {
+  color: rgb(250, 0, 217);
+  font-weight: bold;
 }
