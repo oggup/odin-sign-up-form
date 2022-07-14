@@ -13,6 +13,10 @@ body {
   justify-content: center;
   color:rgb(250, 0, 217);
 }
+ img.fire{
+    height:3rem;
+
+}
 .main-right {
   background-color: rgb(226, 223, 223);
 }
