@@ -11,9 +11,9 @@ body {
 
 .background-laje {
   display: flex;
-  background: url(/images/Laje.jpg);
+  background: url(/images/Laje.jpg) no-repeat center;
   background-size: cover;
-  width: 50vw;
+  width: 30vw;
   /* height:100vh; */
   height: 100%;
 }
