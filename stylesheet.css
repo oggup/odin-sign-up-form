@@ -1,12 +1,13 @@
 body {
   margin: 0;
   background-color: rgb(150, 165, 114);
-  /* height:100%;width:100%; */
+  position: relative;
+
 }
 .main-container {
   display: flex;
   justify-content: center;
-  /* align-items:flex-end */
+  height: 100vh;
 }
 
 .background-laje {
@@ -14,8 +15,7 @@ body {
   background: url(./Laje.jpg) no-repeat center;
   background-size: cover;
   width: 30vw;
-  /* height:100vh; */
-  height: 100%;
+  height: 100vh;
 }
 .main-left div {
   display: flex;
@@ -27,42 +27,33 @@ body {
   color: rgb(250, 0, 217);
   align-self: stretch;
 }
-
 .logo {
   max-width: 300px;
-}
-.main-left > img {
 }
 img.fire {
   height: 3rem;
 }
 .main-right {
-  background-color: rgb(238, 188, 72);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  background-color: rgb(186, 158, 76);
 }
 .header-description {
-}
-
-.main-right h3 {
-  /* padding: 50px; */
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* justify-content:space-between; */
+  padding: 0 20px 0 20px;
+  text-align: center;
 }
 .form-container {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   align-self: stretch;
+}
+
+fieldset {
+    
+  border-color: transparent;
+  display: flex;
+  flex-direction: column;
 }
 .main-form-inputs-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .main-form-inputs-container input,
 ul {
@@ -70,18 +61,41 @@ ul {
   list-style-type: none;
 }
 
+.main-form-inputs-container input:focus {
+  outline: none;
+  transition: 0.7s;
+  border: 2px solid rgb(246, 58, 171);
+  border-radius: 5px;
+}
+label{
+    color:rgb(3, 217, 3);
+    font-size: smaller;
+}
 .button-section {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(238, 188, 72);
+  background-color: rgb(186, 158, 76);
 }
 .create-account-button {
   width: 14rem;
   height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 
 a {
   color: rgb(250, 0, 217);
   font-weight: bold;
+}
+
+.footer{text-align: center;
+    background-color:black;
+    color: rgb(250, 0, 217);
+    position: absolute;
+    width:100vw;
+    font-size: smaller;
 }
