@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: rgb(150, 165, 114);
   position: relative;
-
 }
 .main-container {
   display: flex;
@@ -14,8 +13,8 @@ body {
   display: flex;
   background: url(./Laje.jpg) no-repeat center;
   background-size: cover;
-  width: 30vw;
-  height: 100vh;
+  min-width: 30vw;
+  min-height: 100vh;
 }
 .main-left div {
   display: flex;
@@ -46,7 +45,6 @@ img.fire {
 }
 
 fieldset {
-    
   border-color: transparent;
   display: flex;
   flex-direction: column;
@@ -67,9 +65,9 @@ ul {
   border: 2px solid rgb(246, 58, 171);
   border-radius: 5px;
 }
-label{
-    color:rgb(3, 217, 3);
-    font-size: smaller;
+label {
+  color: rgb(3, 217, 3);
+  font-size: smaller;
 }
 .button-section {
   padding-top: 50px;
@@ -92,10 +90,11 @@ a {
   font-weight: bold;
 }
 
-.footer{text-align: center;
-    background-color:black;
-    color: rgb(250, 0, 217);
-    position: absolute;
-    width:100vw;
-    font-size: smaller;
+.footer {
+  text-align: center;
+  background-color: black;
+  color: rgb(250, 0, 217);
+  position: absolute;
+  width: 100vw;
+  font-size: smaller;
 }
