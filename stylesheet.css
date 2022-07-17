@@ -52,8 +52,10 @@ img.fire {
 
 fieldset {
   border-color: green;
-  border-radius: 5px;
+  border-radius: 9px;
   margin: 50px;
+  box-shadow: 5px 2px 20px rgb(20, 166, 49, 0.7);
+  border-width: 3px;
 }
 .main-form-inputs-container {
   display: flex;
