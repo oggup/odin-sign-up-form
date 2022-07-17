@@ -71,6 +71,7 @@ ul {
   transition: 0.7s;
   border: 2px solid rgb(246, 58, 171);
   border-radius: 5px;
+  box-shadow: 5px 2px 20px rgb(20, 166, 49, 0.7);
 }
 label {
   color: rgb(3, 217, 3);
