@@ -8,15 +8,17 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(221, 233, 192);
+  flex-wrap: wrap;
 }
 .main-left {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
-  background: url(./Laje.jpg) no-repeat center;
+  background: url(./Laje.jpg) no-repeat top center;
   background-size: cover;
   justify-content: center;
   align-items: center;
   width: 30vw;
+  min-height: 60vh;
 }
 .main-left div {
   width: 100%;
@@ -36,6 +38,7 @@ img.fire {
   background-color: rgb(186, 158, 76);
   display: flex;
   flex-direction: column;
+  flex-grow: 2;
 }
 .header-description {
   padding: 0 20px 0 20px;
