@@ -9,15 +9,15 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(221, 233, 192);
-  color:white;
+  color: white;
 }
 .main-left {
-  flex: 1;
   display: flex;
   background: url(./Laje.jpg) no-repeat top center;
   background-size: cover;
   justify-content: center;
   align-items: center;
+  width: 30vh;
 }
 .main-left div {
   width: 100%;
@@ -34,7 +34,7 @@ img.fire {
   height: 3rem;
 }
 .main-right {
-  background-color:black;
+  background-color: black;
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -51,7 +51,8 @@ img.fire {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
-  box-shadow: rgba(250, 0, 217, 0.5) 0px 18px 80px -12px inset, rgba(250, 0, 217, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(250, 0, 217, 0.01) 0px 18px 80px -12px inset,
+    rgba(250, 0, 217, 0.1) 0px 18px 36px -18px inset;
   border-radius: 25px;
 }
 
@@ -99,7 +100,6 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .create-account-button {
   width: 14rem;
@@ -108,6 +108,9 @@ fieldset {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  color: rgb(250, 0, 217);
+  border-color: rgb(250, 0, 217);
+  background-color: black;
 }
 
 a {
@@ -126,14 +129,11 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-  .main-right {
-    background-color: red;
-  }
   .main-left {
     width: 100vw;
     height: 15vh;
-    display: flex;
     background-size: 100vw;
+    background-position: bottom center;
   }
   .main-container {
     flex-wrap: wrap;
@@ -146,6 +146,8 @@ a {
   }
   .main-form-inputs-container input {
     list-style-type: none;
-    background-color: red;
+  }
+  .button-section {
+    margin-bottom: 50px;
   }
 }
