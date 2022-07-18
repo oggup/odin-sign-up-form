@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgb(221, 233, 192);
+  color:white;
 }
 .main-left {
   flex: 1;
@@ -33,7 +34,7 @@ img.fire {
   height: 3rem;
 }
 .main-right {
-  background-color: rgb(186, 158, 76);
+  background-color:black;
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -45,23 +46,19 @@ img.fire {
 .form-container {
   display: flex;
   flex-flow: column;
-  /* background-color: rgb(0, 0, 0); */
   color: white;
   background-color: black;
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
-  box-shadow: rgba(255, 0, 191, 0.538) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px;
-  border-radius: 5px;
+  box-shadow: rgba(250, 0, 217, 0.5) 0px 18px 80px -12px inset, rgba(250, 0, 217, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 25px;
 }
 
 fieldset {
   border-color: green;
   border-radius: 9px;
-  /* margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px; */
+
   box-shadow: 5px 2px 20px rgb(20, 166, 49, 0.7);
   border-width: 3px;
 
@@ -73,7 +70,7 @@ fieldset {
   width: 40%;
   font-size: 0.7rem;
   text-transform: uppercase;
-  opacity: 50%;
+  /* opacity: 50%; */
   color: rgb(3, 217, 3);
 }
 .main-form-inputs-container {
@@ -83,7 +80,6 @@ fieldset {
 .main-form-inputs-container input {
   width: 15rem;
   list-style-type: none;
-  background-color: blue;
 }
 
 .main-form-inputs-container input:focus {
@@ -103,7 +99,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(186, 158, 76);
+ 
 }
 .create-account-button {
   width: 14rem;
@@ -122,7 +118,7 @@ a {
 .footer {
   bottom: 0;
   text-align: center;
-  background-color: black;
+  background-color: rgb(26, 38, 26);
   color: rgb(250, 0, 217);
   position: fixed;
   width: 100vw;
