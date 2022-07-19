@@ -120,6 +120,13 @@ fieldset {
   border-color: rgb(250, 0, 217);
   background-color: black;
 }
+.create-account-button:hover{
+    cursor: pointer;
+    box-shadow: rgba(250, 0, 217,0.2) 0px 18px 80px -12px inset,
+    rgba(250, 0, 217, 0.1) 0px 18px 36px -18px inset;
+    color:white;
+
+}
 
 a {
   color: rgb(250, 0, 217);
