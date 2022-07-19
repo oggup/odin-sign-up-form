@@ -59,12 +59,12 @@ img.fire {
 fieldset {
   border-color: green;
   border-radius: 9px;
-    width:600px;
+  width: 600px;
   box-shadow: 5px 2px 20px rgb(20, 166, 49, 0.7);
   border-width: 3px;
   margin-left: 50px;
   margin-right: 50px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
 
   flex: 1;
 }
@@ -75,7 +75,7 @@ fieldset {
   text-transform: uppercase;
   color: rgb(20, 169, 20);
   gap: 20px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 .main-form-inputs-container {
   display: flex;
@@ -135,9 +135,9 @@ a {
 @media only screen and (max-width: 600px) {
   .main-left {
     width: 100vw;
-    height: 15vh;
+    height: 10rem;
     background-size: 100vw;
-    background-position: bottom center;
+    background-position: top center;
   }
   .main-container {
     flex-wrap: wrap;
@@ -153,5 +153,22 @@ a {
   }
   .button-section {
     margin-bottom: 50px;
+  }
+  fieldset {
+    width: 15rem;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-left {
+    height: 10rem;
+    width: 100vw;
+  }
+  .logo {
+    max-width: 30rem;
   }
 }
