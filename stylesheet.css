@@ -75,6 +75,7 @@ fieldset {
   text-transform: uppercase;
   color: rgb(20, 169, 20);
   gap: 20px;
+  padding-bottom:10px;
 }
 .main-form-inputs-container {
   display: flex;
