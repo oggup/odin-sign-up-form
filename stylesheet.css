@@ -77,9 +77,11 @@ fieldset {
   flex-flow: column wrap;
   font-size: 0.7rem;
   text-transform: uppercase;
-  color: rgb(20, 169, 20);
   margin-top:10px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
+}
+label{
+    color: rgb(20, 169, 20);
 }
 .main-form-inputs-container {
   display: flex;
@@ -128,6 +130,9 @@ fieldset {
 
 }
 
+.error{
+    color: red;
+}
 a {
   color: rgb(250, 0, 217);
   font-weight: bold;
@@ -184,3 +189,4 @@ a {
     max-width: 30rem;
   }
 }
+
