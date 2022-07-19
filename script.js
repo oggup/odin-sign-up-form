@@ -25,6 +25,7 @@ const submit = (e) => {
     passwordConfirm.classList.add("error");
     document.querySelector(".confirm-input").append(errorMessage);
   }
+  console.log(inputs);
 };
 
 let form = document.querySelector("form");
