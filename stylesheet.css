@@ -45,12 +45,12 @@ img.fire {
 }
 .form-container {
   display: flex;
-  flex-flow: column;
-  color: white;
-  background-color: black;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  color: white;
+  background-color: black;
   box-shadow: rgba(250, 0, 217, 0.01) 0px 18px 80px -12px inset,
     rgba(250, 0, 217, 0.1) 0px 18px 36px -18px inset;
   border-radius: 25px;
@@ -67,16 +67,16 @@ fieldset {
 }
 .main-form-inputs-container div {
   display: flex;
-  flex-flow: row wrap;
-  width: 40%;
+  flex-flow: column wrap;
   font-size: 0.7rem;
   text-transform: uppercase;
-  /* opacity: 50%; */
-  color: rgb(3, 217, 3);
+  color: rgb(20, 169, 20);
+  gap: 20px;
 }
 .main-form-inputs-container {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 .main-form-inputs-container input {
   width: 15rem;
