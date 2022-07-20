@@ -78,10 +78,10 @@ fieldset {
   flex-flow: column wrap;
   font-size: 0.7rem;
   text-transform: uppercase;
-  margin-top:10px;
+  margin-top: 10px;
 }
-label{
-    color: rgb(20, 169, 20);
+label {
+  color: rgb(20, 169, 20);
 }
 .main-form-inputs-container {
   display: flex;
@@ -122,16 +122,15 @@ label{
   border-color: rgb(250, 0, 217);
   background-color: black;
 }
-.create-account-button:hover{
-    cursor: pointer;
-    box-shadow: rgba(250, 0, 217,0.2) 0px 18px 80px -12px inset,
+.create-account-button:hover {
+  cursor: pointer;
+  box-shadow: rgba(250, 0, 217, 0.2) 0px 18px 80px -12px inset,
     rgba(250, 0, 217, 0.1) 0px 18px 36px -18px inset;
-    color:white;
-
+  color: white;
 }
 
-.error{
-    color: red;
+.error {
+  color: red;
 }
 a {
   color: rgb(250, 0, 217);
@@ -152,8 +151,9 @@ a {
   .main-left {
     width: 100vw;
     height: 10rem;
+    background: url(lajeback.jpeg);
     background-size: 100vw;
-    background-position: top center;
+    background-position: 50% 20%;
   }
   .main-container {
     flex-wrap: wrap;
@@ -181,12 +181,13 @@ a {
   }
 
   .main-left {
-    height: 10rem;
     width: 100vw;
-    background-position: top center;
+    height: 10rem;
+    background: url(lajeback.jpeg);
+    background-size: 100vw;
+    background-position: 50% 20%;
   }
   .logo {
     max-width: 30rem;
   }
 }
-
