@@ -26,7 +26,6 @@ phone.addEventListener("keyup", () => {
 passwordConfirm.addEventListener("keyup", (e) => {
   if (password.value !== e.target.value) {
     passwordConfirmLabel.classList.add("error");
-
   }
   if (password.value == e.target.value) {
     passwordConfirmLabel.textContent = "confirm password";
