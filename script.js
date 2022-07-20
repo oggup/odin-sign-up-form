@@ -10,8 +10,6 @@ let phoneLabel = document.querySelector(".phone");
 
 console.log(errorMessage);
 
-let inputs = [firstName, lastName, email, phone, password, passwordConfirm];
-
 phone.addEventListener("keyup", () => {
   phoneLabel.classList.add("error");
   phoneLabel.textContent = "phone must be exactly 10 numbers";
@@ -28,9 +26,10 @@ phone.addEventListener("keyup", () => {
 passwordConfirm.addEventListener("keyup", (e) => {
   if (password.value !== e.target.value) {
     passwordConfirmLabel.classList.add("error");
-    passwordConfirmLabel.textContent = "confirm password";
+
   }
   if (password.value == e.target.value) {
+    passwordConfirmLabel.textContent = "confirm password";
     passwordConfirmLabel.classList.remove("error");
   }
 });
@@ -42,7 +41,7 @@ const submit = (e) => {
     passwordConfirmLabel.textContent = "*passwords do not match";
     return;
   }
-  if (password.value !== passwordConfirm.value) {
+  if (password.value == passwordConfirm.value) {
     passwordConfirmLabel.classList.remove("error");
     passwordConfirmLabel.textContent = "confirm password";
   }
