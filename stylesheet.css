@@ -63,7 +63,7 @@ img.fire {
 fieldset {
   border-color: green;
   border-radius: 9px;
-  width: 600px;
+  width: 700px;
   box-shadow: 5px 2px 20px rgb(20, 166, 49, 0.7);
   border-width: 3px;
   margin-left: 50px;
@@ -89,7 +89,7 @@ label {
   justify-content: space-around;
 }
 .main-form-inputs-container input {
-  width: 15rem;
+  width: 20rem;
   list-style-type: none;
 }
 
